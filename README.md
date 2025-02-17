@@ -80,14 +80,6 @@ To execute individual tests:
 
 ---
 
-## Usage Example
-To use `mini-libc` in a project, compile with `-nostdlib` and link against `mini-libc.a`:
-```sh
-gcc -nostdlib -o my_program my_program.c -Lpath/to/mini-libc -lmini-libc
-```
-
----
-
 ## Resources
 - [GNU libc manual](https://www.gnu.org/software/libc/manual/html_mono/libc.html)  
 - [Linux syscalls documentation](https://man7.org/linux/man-pages/dir_section_2.html)  
